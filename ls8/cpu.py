@@ -73,8 +73,8 @@ class CPU:
     def run(self):
         """Run the CPU."""
 
-        self.ram_read(0)
+        print(self.ram_read(2))
 
-        self.trace()
+        # self.trace()
 
         self.IR = ""
